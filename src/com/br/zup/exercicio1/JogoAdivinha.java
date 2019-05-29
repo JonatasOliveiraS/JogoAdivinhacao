@@ -22,7 +22,7 @@ public class JogoAdivinha {
 			}else {
 				System.out.println("Você errou, restaram "+ vidas-- +" vidas !");
 			}if (vidas == -1) {
-				System.out.println("GAME OVER , YOU LOSE , ACABOU , JÁ ERA , SE FODEU ! ");
+				System.out.println("GAME OVER , YOU LOSE , ACABOU , JÁ ERA ! ");
 			}
 		}
 
