@@ -1,4 +1,5 @@
 package com.br.zup.exercicio1;
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -8,7 +9,7 @@ public class JogoAdivinha {
 		Scanner entrada = new Scanner(System.in);
 		Random aleatorio = new Random();
 		
-		int numeroAleatorio = aleatorio.nextInt(51);
+		int numeroAleatorio = aleatorio.nextInt(50);
 		int palpite = numeroAleatorio;
 		int vidas = 9;
 		
@@ -19,6 +20,7 @@ public class JogoAdivinha {
 			
 			if (numeroAleatorio == palpite) {
 				System.out.println("Parabéns você acertou ! ");
+				break;
 			}else {
 				System.out.println("Você errou, restaram "+ vidas-- +" vidas !");
 			}if (vidas == -1) {
